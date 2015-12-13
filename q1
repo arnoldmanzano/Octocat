@@ -1,1 +1,5 @@
 Explain what git clone does, in your own words
+Git clone makes a copy of a repository, and the cloned repo will be identical in terms of files and directories as well as commits and branches with the original reference. But additionally, the original reference will be recognised by the clone as a remote repo usually referred as origin.
+
+Git cloning is useful to create a local copy of the repository when the original reference is hosted elsewhere like github for example. Local changes can be pushed to the origin, or changes on the origin can be pulled to the local repo.
+
