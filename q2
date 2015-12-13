@@ -1,1 +1,7 @@
 Explain what the "upstream" remote is usually used for, in your own words
+Upstream is usually a remote used for the original reference of a repo that you made a fork off.
+When you make a fork from an original repo, and then clone your forked repo to local:
+	remote origin will be the fork you made
+	remote upstream will be the original reference repo
+This is useful to make sure your fork can pull from the latest original reference repo. The code you are working on will have the latest changes from the upstream and it will also be for when you need to merge it back later on.
+
