@@ -1,1 +1,6 @@
 Explain what a branch is, in your own words
+Just like in a real tree, the code will start in a main branch which is the master branch.
+Other branches can be created from the main branch (or even from other branches) and the changes to each can then be isolated from the master and from each other.
+
+Creating branches is useful to keep the master branch stable and usually untouched while the branch/es is where the development and changes continue. A branch can then be merged back to the master when ready.
+
